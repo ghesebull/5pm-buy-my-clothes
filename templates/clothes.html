@@ -13,9 +13,9 @@
 <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
   <div class="w3-third w3-container w3-margin-bottom">
   {% for pic in pic_col1 %}
-  <a href="#" class="pop">
+  <a class="pop">
     <data value="{{pic[2]}}">
-      <img src="data:image/{{pic[0].extension}};base64,{{pic[1]}}" alt="{{pic[0].username}}" style="width:100%" class="w3-hover-opacity">
+      <img src="data:image/{{pic[0].extension}};base64,{{pic[1]}}" alt="{{pic[0].username}}" style="width:100%; cursor:pointer" class="w3-hover-opacity">
     </data>
   </a>
 
@@ -24,9 +24,9 @@
 
   <div class="w3-third w3-container w3-margin-bottom">
   {% for pic in pic_col2 %}
-  <a href="#" class="pop">
+  <a class="pop">
     <data value="{{pic[2]}}">
-      <img src="data:image/{{pic[0].extension}};base64, {{pic[1]}}" alt="{{pic[0].username}}" style="width:100%" class="w3-hover-opacity">
+      <img src="data:image/{{pic[0].extension}};base64, {{pic[1]}}" alt="{{pic[0].username}}" style="width:100%; cursor:pointer" class="w3-hover-opacity">
     </data>
   </a>
   {% endfor %}
@@ -34,9 +34,9 @@
 
   <div class="w3-third w3-container w3-margin-bottom">
   {% for pic in pic_col3 %}
-  <a href="#" class="pop">
+  <a class="pop">
     <data value="{{pic[2]}}">
-      <img src="data:image/{{pic[0].extension}};base64, {{pic[1]}}" alt="{{pic[0].username}}" style="width:100%" class="w3-hover-opacity">
+      <img src="data:image/{{pic[0].extension}};base64, {{pic[1]}}" alt="{{pic[0].username}}" style="width:100%; cursor:pointer" class="w3-hover-opacity">
     </data>
   </a>
   {% endfor %}
