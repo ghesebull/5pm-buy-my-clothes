@@ -62,7 +62,7 @@ $(function() {
             $('.text-left').append('<div><p><b>' + category + ': </b><a href=\"//' + link + '\" target=\"_blank\">Buy Me!</a></p></div>');
           }
         }
-        $('.text-right').append('<p align="right">Posted by ' + username + '</p>');
+        $('.text-right').append('<p align="right">Posted by <a href="/userprofile/' + username + '">' + username + '</a></p>');
         $('#imagemodal').modal('show');
     });
 });
